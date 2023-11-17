@@ -53,3 +53,5 @@ int main()
 
 ### [202309-3.cpp](202309-3.cpp) 
 用string来写hash就可以了
+
+`const PI = acos(-1);`
