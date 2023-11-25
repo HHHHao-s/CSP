@@ -55,3 +55,18 @@ int main()
 用string来写hash就可以了
 
 `const PI = acos(-1);`
+
+## [DHCP服务器](/202104-3.cpp)
+
+直接模拟，不要用映射，编码非常复杂
+
+```cpp
+int gcd(int a, int b) {
+    while (b != 0) {
+        int t = b;
+        b = a % b;
+        a = t;
+    }
+    return a;
+}
+```
